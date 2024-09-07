@@ -167,6 +167,10 @@ do -- src/Lua/Modules/Base/
         end
     end
 end
+
+        end)
+
+        local UserInterface = (function() -- src/Lua/Interface/Interface.Lua
     local UserInterface = {
         Instances = {},
         Popup = nil,
@@ -3300,5 +3304,7 @@ end
         return Configuration
     end
     
-    local library = UserInterface;
-    return library;
+    return UserInterface
+end)()
+
+        return UserInterface
