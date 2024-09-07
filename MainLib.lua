@@ -1,4 +1,5 @@
-local SYC = {
+
+                    local SYC = {
     Modules = {
         UI = {}
     }
@@ -167,7 +168,6 @@ do -- src/Lua/Modules/Base/
     end
 end
 
-        end)
 
         local UserInterface = (function() -- src/Lua/Interface/Interface.Lua
     local UserInterface = {
@@ -3306,4 +3306,4 @@ end
     return UserInterface
 end)()
 
-        return UserInterface
+return UserInterface
