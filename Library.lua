@@ -3300,4 +3300,5 @@ end
         return Configuration
     end
     
-    return UserInterface
+   local library = UserInterface;
+return library;
