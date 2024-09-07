@@ -4,6 +4,7 @@
         UI = {}
     }
 }
+local CheatName = "drax"
 
 -- check if there is no global variable SYC, and if there is none, it will set it to the table above.
 -- erm its basically prefetch ifykyk
